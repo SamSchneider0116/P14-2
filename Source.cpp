@@ -37,6 +37,7 @@ Counts the number of instances of a desired characer in string
 @return - Number of instances of a desired characer in string
 */
 int charcnt(char* ptr, char c) {
+
 	int length = getLength(ptr);
 	int numChar = 0;
 
@@ -59,6 +60,7 @@ Counts the number of instances of a group of repeated characters
 @return - Number of instances of a group of repeated characters
 */
 int repeat(char* ptr) {
+
 	int length = getLength(ptr);
 	int numRepeats = 0;
 
@@ -86,6 +88,7 @@ Prints string in reverse
 @param char* ptr - Character Pointer
 */
 void reverse(char* ptr) {
+
 	int length = getLength(ptr);
 
 	ptr = ptr + length - 1;
